@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.canvas-container {
+    border: 1px solid black;
+    width: 428px;
+    height: 540px;
+    margin: 30px auto;
+    /* background-color: black; */
+}
+
+canvas {
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+#logo{
+
+}
+
+#navItems ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+   
+}
